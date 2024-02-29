@@ -3,6 +3,7 @@ import sys
 def calculate(expression):
     try:
         # Evaluate the expression using eval()
+	# We dont have to change anything because eval is the calculator...
         result = eval(expression)
         return result
     except Exception as e:
