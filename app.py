@@ -10,7 +10,7 @@ def calculate(expression):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python cal.py <expression>")
+        print("All arithmetic is supported\n Usage: python app.py <expression>")
         return
 
     # Get the expression from the command-line argument
